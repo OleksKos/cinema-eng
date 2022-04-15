@@ -13,7 +13,7 @@ schemeSvg.addEventListener('click', (event) => {
       price.innerHTML = `$${sum}`;
     } else {
       sum = sum - setPrice;
-      price.innerHTML = `$${sum} грн`;
+      price.innerHTML = `$${sum}`;
     }
   }
 })
